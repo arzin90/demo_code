@@ -1,0 +1,2401 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Auth\\\\AuthManager\\:\\:factory\\(\\)\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$email on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$email on App\\\\Models\\\\VerifyCode\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$first_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$last_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$phone on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$phone on App\\\\Models\\\\VerifyCode\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$type on App\\\\Models\\\\VerifyCode\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot access property \\$user on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot call method devices\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\AuthController\\:\\:generateToken\\(\\) has parameter \\$token with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 7
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method App\\\\Models\\\\User\\:\\:addMedia\\(\\) expects string\\|Symfony\\\\Component\\\\HttpFoundation\\\\File\\\\UploadedFile, array\\<int, Illuminate\\\\Http\\\\UploadedFile\\>\\|Illuminate\\\\Http\\\\UploadedFile given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Part \\$type \\(mixed\\) of encapsed string cannot be cast to string\\.$#"
+			count: 5
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Variable \\$specialist in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Variable \\$specialistClients in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/AuthController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendResponse\\(\\) has parameter \\$result with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/BaseController.php
+
+		-
+			message: "#^Cannot access property \\$document on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Cannot access property \\$is_info_added on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Cannot call method educations\\(\\) on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Cannot call method format\\(\\) on Carbon\\\\Carbon\\|false\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 8
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Cannot call method toMediaCollection\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\EducationController\\:\\:deleteDocument\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\EducationController\\:\\:destroy\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\EducationController\\:\\:show\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Property App\\\\Api\\\\V1\\\\Controllers\\\\EducationController\\:\\:\\$only has no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Variable \\$education in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Variable \\$educations in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Variable \\$specialist in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/EducationController.php
+
+		-
+			message: "#^Cannot call method favorites\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/FavoriteController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/FavoriteController.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/FeedController.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/FeedController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/FeedController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\GroupMessage\\:\\:groupMessageEvent\\(\\)\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Cannot call method groupMembares\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Cannot call method groups\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\Program\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Program\\>\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:addMember\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:destroy\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:leaveMember\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:mute\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:removeMember\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:removeMember\\(\\) has parameter \\$member_id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:show\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:showMembers\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:unmute\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 5
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method App\\\\Models\\\\Group\\:\\:addMedia\\(\\) expects string\\|Symfony\\\\Component\\\\HttpFoundation\\\\File\\\\UploadedFile, array\\<int, Illuminate\\\\Http\\\\UploadedFile\\>\\|Illuminate\\\\Http\\\\UploadedFile given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Static call to instance method Illuminate\\\\Log\\\\Logger\\:\\:error\\(\\)\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Variable \\$group in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Variable \\$group_message_ids in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupController.php
+
+		-
+			message: "#^Cannot access offset 'url' on mixed\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$avatar_url on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$email on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$first_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$last_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$name on App\\\\Models\\\\Group\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$phone on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \\$unread_count_all on App\\\\Models\\\\User\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\User\\>\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot call method groupMessageEvents\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupMessageController\\:\\:destroy\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\GroupMessageController\\:\\:index\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method App\\\\Models\\\\GroupMessage\\:\\:addMedia\\(\\) expects string\\|Symfony\\\\Component\\\\HttpFoundation\\\\File\\\\UploadedFile, array\\<int, Illuminate\\\\Http\\\\UploadedFile\\>\\|Illuminate\\\\Http\\\\UploadedFile\\|null given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Variable \\$group_message_ids in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Variable \\$message might not be defined\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Variable \\$message_new might not be defined\\.$#"
+			count: 5
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Variable \\$recipient_message in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Variable \\$sender_message in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$auth_id\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'first_name' on mixed\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'from' on mixed\\.$#"
+			count: 5
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'group' on mixed\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'id' on mixed\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'last_name' on mixed\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'name' on mixed\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'to' on mixed\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access offset 'url' on mixed\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access property \\$avatar_url on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access property \\$email on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access property \\$first_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access property \\$last_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access property \\$phone on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access property \\$unread_count_all on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot call method groupMembares\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot call method toArray\\(\\) on App\\\\Models\\\\Message\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\MessageController\\:\\:destroy\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\MessageController\\:\\:destroyAll\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\MessageController\\:\\:index\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method App\\\\Models\\\\Message\\:\\:addMedia\\(\\) expects string\\|Symfony\\\\Component\\\\HttpFoundation\\\\File\\\\UploadedFile, array\\<int, Illuminate\\\\Http\\\\UploadedFile\\>\\|Illuminate\\\\Http\\\\UploadedFile\\|null given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Variable \\$message might not be defined\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Variable \\$message_from in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Variable \\$message_to in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Variable \\$messages might not be defined\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\NewsController\\:\\:show\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/NewsController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\PageController\\:\\:bySlug\\(\\) has parameter \\$slug with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/PageController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Cannot call method programComments\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\ProgramComment\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramCommentController\\:\\:destroy\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramCommentController\\:\\:store\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramCommentController\\:\\:update\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramCommentController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramCommentController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramComplaintController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Program\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Program\\>\\:\\:\\$group_id\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Program\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Program\\>\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Program\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Program\\>\\:\\:\\$specialist\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\GroupMessage\\:\\:groupMessageEvent\\(\\)\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Call to an undefined method Spatie\\\\MediaLibrary\\\\HasMedia\\:\\:delete\\(\\)\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$full_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$gender on App\\\\Models\\\\User\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 7
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$id on Illuminate\\\\Database\\\\Eloquent\\\\Model\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$specialist on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$status on App\\\\Models\\\\Program\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$user on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \\$user_id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method programs\\(\\) on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method programs\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method specialistIsActive\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method toMediaCollection\\(\\) on mixed\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\ProgramUser\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\Program\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramController\\:\\:book\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramController\\:\\:destroy\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramController\\:\\:show\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\ProgramController\\:\\:user\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 5
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, string given\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Variable \\$program in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot call method programFavorites\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramFavoriteController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramFavoriteController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramRateController.php
+
+		-
+			message: "#^Cannot call method programRates\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramRateController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/ProgramRateController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/RateController.php
+
+		-
+			message: "#^Cannot call method specialistRates\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/RateController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/RateController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Cannot call method specialistComments\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\SpecialistComment\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistCommentController\\:\\:destroy\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistCommentController\\:\\:store\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistCommentController\\:\\:update\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistCommentController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/SpecialistCommentController.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access offset 'first_name' on mixed\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access offset 'pseudonym' on mixed\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access offset 'user' on mixed\\.$#"
+			count: 6
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$email on App\\\\Models\\\\User\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\User\\>\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$full_name on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$group_membares on App\\\\Models\\\\SpecialistClient\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 9
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\User\\>\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$phone on App\\\\Models\\\\User\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\User\\>\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$specialist on App\\\\Models\\\\User\\|null\\.$#"
+			count: 5
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$user_id on App\\\\Models\\\\SpecialistClient\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot call method refresh\\(\\) on App\\\\Models\\\\SpecialistClient\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 9
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot call method specialties\\(\\) on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\SpecialistClient\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistController\\:\\:deleteClient\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistController\\:\\:getClient\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistController\\:\\:updateClient\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 9
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method App\\\\Models\\\\Specialist\\:\\:addMedia\\(\\) expects string\\|Symfony\\\\Component\\\\HttpFoundation\\\\File\\\\UploadedFile, array\\<int, Illuminate\\\\Http\\\\UploadedFile\\>\\|Illuminate\\\\Http\\\\UploadedFile\\|null given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function parse_str expects string, string\\|false\\|null given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Variable \\$client_ids in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Variable \\$isPhone might not be defined\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistSubscriptionController.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistSubscriptionController.php
+
+		-
+			message: "#^Cannot call method specialistSubscription\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 4
+			path: app/Api/V1/Controllers/SpecialistSubscriptionController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistSubscriptionController\\:\\:subscribe\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistSubscriptionController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\SpecialistSubscriptionController\\:\\:unsubscribe\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistSubscriptionController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/SpecialistSubscriptionController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialtyController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialtyController.php
+
+		-
+			message: "#^Cannot access property \\$specialist on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialtyController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialtyController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\User\\:\\:\\$group_membares\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$location\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Binary operation \"\\.\" between array\\|string\\|null and ' успешно изменён\\.' results in an error\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot access property \\$email on App\\\\Models\\\\VerifyCode\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot access property \\$id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot access property \\$password on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot access property \\$phone on App\\\\Models\\\\VerifyCode\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot access property \\$specialist on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot access property \\$type on App\\\\Models\\\\VerifyCode\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot call method clearMediaCollection\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot call method format\\(\\) on Carbon\\\\Carbon\\|false\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot call method mySpecialists\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 3
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot call method pluck\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Cannot call method update\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Left side of && is always true\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\UserController\\:\\:mute\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\UserController\\:\\:show\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Method App\\\\Api\\\\V1\\\\Controllers\\\\UserController\\:\\:unmute\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$column of method Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\User\\>\\:\\:orderBy\\(\\) expects Closure\\|Illuminate\\\\Database\\\\Query\\\\Builder\\|Illuminate\\\\Database\\\\Query\\\\Expression\\|string, Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\Specialist\\> given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$column of method Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\User\\>\\:\\:orderByDesc\\(\\) expects string, Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\Specialist\\> given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$errorMessages of method App\\\\Api\\\\V1\\\\Controllers\\\\BaseController\\:\\:sendError\\(\\) expects array, Illuminate\\\\Support\\\\MessageBag given\\.$#"
+			count: 13
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method App\\\\Models\\\\User\\:\\:addMedia\\(\\) expects string\\|Symfony\\\\Component\\\\HttpFoundation\\\\File\\\\UploadedFile, array\\<int, Illuminate\\\\Http\\\\UploadedFile\\>\\|Illuminate\\\\Http\\\\UploadedFile given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#2 \\$hashedValue of static method Illuminate\\\\Hashing\\\\HashManager\\:\\:check\\(\\) expects string, string\\|null given\\.$#"
+			count: 2
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#2 \\$values of method Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\VerifyCode\\>\\:\\:updateOrCreate\\(\\) expects array\\<string, mixed\\>, array\\<int\\|string, mixed\\> given\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Variable \\$specialist in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Variable \\$specialist_ids in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Variable \\$specialists in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/UserController.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageCountEvent\\:\\:__construct\\(\\) has parameter \\$to with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageCountEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageCountEvent\\:\\:__construct\\(\\) has parameter \\$unread_all_count with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageCountEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageCountEvent\\:\\:broadcastAs\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Events/MessageCountEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageCountEvent\\:\\:\\$to has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageCountEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageCountEvent\\:\\:\\$unread_all_count has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageCountEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageEvent\\:\\:__construct\\(\\) has parameter \\$message with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageEvent\\:\\:__construct\\(\\) has parameter \\$params with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageEvent\\:\\:broadcastAs\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Events/MessageEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageEvent\\:\\:\\$message has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageEvent\\:\\:\\$params has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageGroupEvent\\:\\:__construct\\(\\) has parameter \\$message with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageGroupEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageGroupEvent\\:\\:__construct\\(\\) has parameter \\$params with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageGroupEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageGroupEvent\\:\\:broadcastAs\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Events/MessageGroupEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageGroupEvent\\:\\:\\$message has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageGroupEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageGroupEvent\\:\\:\\$params has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageGroupEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageRemoveEvent\\:\\:__construct\\(\\) has parameter \\$from with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageRemoveEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageRemoveEvent\\:\\:__construct\\(\\) has parameter \\$message_id with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageRemoveEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageRemoveEvent\\:\\:__construct\\(\\) has parameter \\$to with no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageRemoveEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\MessageRemoveEvent\\:\\:broadcastAs\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Events/MessageRemoveEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageRemoveEvent\\:\\:\\$from has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageRemoveEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageRemoveEvent\\:\\:\\$message_id has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageRemoveEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\MessageRemoveEvent\\:\\:\\$to has no type specified\\.$#"
+			count: 1
+			path: app/Events/MessageRemoveEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\RequestEvent\\:\\:__construct\\(\\) has parameter \\$message with no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\RequestEvent\\:\\:__construct\\(\\) has parameter \\$params with no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\RequestEvent\\:\\:broadcastAs\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Events/RequestEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\RequestEvent\\:\\:\\$message has no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\RequestEvent\\:\\:\\$params has no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\RequestGroupMessageEvent\\:\\:__construct\\(\\) has parameter \\$group_member with no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestGroupMessageEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\RequestGroupMessageEvent\\:\\:__construct\\(\\) has parameter \\$message with no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestGroupMessageEvent.php
+
+		-
+			message: "#^Method App\\\\Events\\\\RequestGroupMessageEvent\\:\\:broadcastAs\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Events/RequestGroupMessageEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\RequestGroupMessageEvent\\:\\:\\$group_member has no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestGroupMessageEvent.php
+
+		-
+			message: "#^Property App\\\\Events\\\\RequestGroupMessageEvent\\:\\:\\$message has no type specified\\.$#"
+			count: 1
+			path: app/Events/RequestGroupMessageEvent.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Exceptions\\\\Handler\\:\\:\\$dontFlash is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\\:\\:\\$dontFlash\\.$#"
+			count: 1
+			path: app/Exceptions/Handler.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Exceptions\\\\Handler\\:\\:\\$dontReport is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\\:\\:\\$dontReport\\.$#"
+			count: 1
+			path: app/Exceptions/Handler.php
+
+		-
+			message: "#^Method App\\\\Helper\\\\Badge\\:\\:getByStatusId\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Helper/Badge.php
+
+		-
+			message: "#^Method App\\\\Helper\\\\Badge\\:\\:getByStatusName\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: app/Helper/Badge.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, array\\|string\\|null given\\.$#"
+			count: 10
+			path: app/Helper/Badge.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 3
+			path: app/Helper/Notification.php
+
+		-
+			message: "#^Cannot access property \\$unread_count on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Helper/Notification.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\AdminController\\:\\:create\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AdminController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\AdminController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AdminController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\AdminController\\:\\:edit\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AdminController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\AdminController\\:\\:index\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AdminController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\AdminController\\:\\:show\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AdminController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\AdminController\\:\\:store\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AdminController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\AdminController\\:\\:update\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AdminController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Category\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Category\\>\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/CategoryController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/CategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\CategoryController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/CategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\CategoryController\\:\\:edit\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/CategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\CategoryController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/CategoryController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Chapter\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Chapter\\>\\:\\:update\\(\\)\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/ChapterController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/ChapterController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ChapterController\\:\\:active\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ChapterController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ChapterController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ChapterController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ChapterController\\:\\:edit\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ChapterController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ChapterController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ChapterController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ChapterController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ChapterController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Education\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Education\\>\\:\\:update\\(\\)\\.$#"
+			count: 2
+			path: app/Http/Controllers/Dashboard/EducationController.php
+
+		-
+			message: "#^Call to an undefined method Spatie\\\\MediaLibrary\\\\HasMedia\\:\\:delete\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/EducationController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/EducationController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\EducationController\\:\\:active\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/EducationController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\EducationController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/EducationController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\EducationController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/EducationController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Location\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Location\\>\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/LocationController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 2
+			path: app/Http/Controllers/Dashboard/LocationController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\LocationController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/LocationController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/MainController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\MainController\\:\\:logout\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/MainController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\News\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\News\\>\\:\\:addMedia\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\News\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\News\\>\\:\\:clearMediaCollection\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\News\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\News\\>\\:\\:newsCategory\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\News\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\News\\>\\:\\:update\\(\\)\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Call to an undefined method Spatie\\\\MediaLibrary\\\\HasMedia\\:\\:delete\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\NewsController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\NewsController\\:\\:edit\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\NewsController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\NewsController\\:\\:publish\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\NewsController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method App\\\\Models\\\\News\\:\\:addMedia\\(\\) expects string\\|Symfony\\\\Component\\\\HttpFoundation\\\\File\\\\UploadedFile, array\\<int, Illuminate\\\\Http\\\\UploadedFile\\>\\|Illuminate\\\\Http\\\\UploadedFile given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/NewsController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Page\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Page\\>\\:\\:update\\(\\)\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/PageController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/PageController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\PageController\\:\\:active\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/PageController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\PageController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/PageController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\PageController\\:\\:edit\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/PageController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\PageController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/PageController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\PageController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/PageController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\ProgramCategory\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\ProgramCategory\\>\\:\\:update\\(\\)\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/ProgramCategoryController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/ProgramCategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramCategoryController\\:\\:active\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramCategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramCategoryController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramCategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramCategoryController\\:\\:edit\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramCategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramCategoryController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramCategoryController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramCategoryController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramCategoryController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramComplaintController.php
+
+		-
+			message: "#^Call to an undefined method Spatie\\\\MediaLibrary\\\\HasMedia\\:\\:delete\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Cannot call method clearMediaCollection\\(\\) on App\\\\Models\\\\Program\\|null\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramController\\:\\:active\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramController\\:\\:show\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\ProgramController\\:\\:show\\(\\) should return Illuminate\\\\Contracts\\\\Foundation\\\\Application\\|Illuminate\\\\Contracts\\\\View\\\\Factory\\|Illuminate\\\\Contracts\\\\View\\\\View but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/ProgramController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Specialist\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Specialist\\>\\:\\:clearMediaCollection\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Specialist\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Specialist\\>\\:\\:update\\(\\)\\.$#"
+			count: 5
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<Spatie\\\\MediaLibrary\\\\MediaCollections\\\\Models\\\\Media\\>\\|Spatie\\\\MediaLibrary\\\\MediaCollections\\\\Models\\\\Media\\:\\:update\\(\\)\\.$#"
+			count: 2
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Call to an undefined method Spatie\\\\MediaLibrary\\\\HasMedia\\:\\:delete\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 8
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:active\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:index\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\View\\\\View\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:removeVideo\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:show\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:videoActive\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:videoMediaActive\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:videoMediaPending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialistController\\:\\:videoPending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialistController.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Models\\\\Specialty\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<App\\\\Models\\\\Specialty\\>\\:\\:update\\(\\)\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/SpecialtyController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Http/Controllers/Dashboard/SpecialtyController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialtyController\\:\\:active\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialtyController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialtyController\\:\\:edit\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialtyController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialtyController\\:\\:pending\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialtyController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\SpecialtyController\\:\\:update\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/SpecialtyController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/UserController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\UserController\\:\\:destroy\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/UserController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\UserController\\:\\:edit\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/UserController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\UserController\\:\\:index\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\View\\\\View\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/UserController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\UserController\\:\\:show\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\View\\\\View\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/UserController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Dashboard\\\\UserController\\:\\:update\\(\\) should return Illuminate\\\\Http\\\\Response but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/UserController.php
+
+		-
+			message: "#^Cannot access property \\$status_id on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Http/Middleware/AccountAccess.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: app/Http/Middleware/SpecialistAccess.php
+
+		-
+			message: "#^Expression in empty\\(\\) is not falsy\\.$#"
+			count: 1
+			path: app/Http/Middleware/SpecialistAccess.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$file_name\\.$#"
+			count: 1
+			path: app/Models/Education.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$human_readable_size\\.$#"
+			count: 1
+			path: app/Models/Education.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Models/Education.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$mime_type\\.$#"
+			count: 1
+			path: app/Models/Education.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Models/Education.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Models/Group.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$human_readable_size\\.$#"
+			count: 1
+			path: app/Models/GroupMessage.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Models/GroupMessage.php
+
+		-
+			message: "#^Method App\\\\Models\\\\GroupMessage\\:\\:getFileAttribute\\(\\) should return null but returns array\\<string, mixed\\>\\.$#"
+			count: 1
+			path: app/Models/GroupMessage.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$human_readable_size\\.$#"
+			count: 1
+			path: app/Models/Message.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Models/Message.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Message\\:\\:getFileAttribute\\(\\) should return null but returns array\\<string, mixed\\>\\.$#"
+			count: 1
+			path: app/Models/Message.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Models/News.php
+
+		-
+			message: "#^Method App\\\\Models\\\\News\\:\\:categories\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Models/News.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Page\\:\\:getKeyAttribute\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: app/Models/Page.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Page\\:\\:getStatusAttribute\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: app/Models/Page.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$file_name\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$human_readable_size\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$mime_type\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Program\\:\\:getMyRateAttribute\\(\\) should return Illuminate\\\\Support\\\\Collection but returns mixed\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Program\\:\\:getMyRateAttribute\\(\\) should return Illuminate\\\\Support\\\\Collection but returns null\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Program\\:\\:users\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Models/Program.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$file_name\\.$#"
+			count: 2
+			path: app/Models/Specialist.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$human_readable_size\\.$#"
+			count: 2
+			path: app/Models/Specialist.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$id\\.$#"
+			count: 2
+			path: app/Models/Specialist.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$mime_type\\.$#"
+			count: 2
+			path: app/Models/Specialist.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getCustomProperty\\(\\)\\.$#"
+			count: 1
+			path: app/Models/Specialist.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 2
+			path: app/Models/Specialist.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\SpecialistClient\\:\\:\\$fillable is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$fillable\\.$#"
+			count: 1
+			path: app/Models/SpecialistClient.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Specialty\\:\\:user\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Models/Specialty.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:getFullUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^Cannot access property \\$user_id on App\\\\Models\\\\Specialist\\|null\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^Cannot call method specialist\\(\\) on App\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^Method App\\\\Models\\\\User\\:\\:getIsInfoAddedAttribute\\(\\) should return string but returns bool\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\User\\:\\:\\$fillable is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$fillable\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^Right side of && is always true\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\UserSpecialist\\:\\:\\$fillable is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$fillable\\.$#"
+			count: 1
+			path: app/Models/UserSpecialist.php
+
+		-
+			message: "#^Method App\\\\Models\\\\VerifyCode\\:\\:checkCode\\(\\) has parameter \\$code with no type specified\\.$#"
+			count: 1
+			path: app/Models/VerifyCode.php
+
+		-
+			message: "#^Method App\\\\Models\\\\VerifyCode\\:\\:checkCode\\(\\) has parameter \\$token with no type specified\\.$#"
+			count: 1
+			path: app/Models/VerifyCode.php
+
+		-
+			message: "#^Method App\\\\Models\\\\VerifyCode\\:\\:isValidToken\\(\\) has parameter \\$token with no type specified\\.$#"
+			count: 1
+			path: app/Models/VerifyCode.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\VerifyCode\\:\\:\\$fillable is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$fillable\\.$#"
+			count: 1
+			path: app/Models/VerifyCode.php
+
+		-
+			message: "#^Cannot access property \\$email on mixed\\.$#"
+			count: 1
+			path: app/Notifications/ForgotPassword.php
+
+		-
+			message: "#^Method App\\\\Notifications\\\\ForgotPassword\\:\\:__construct\\(\\) has parameter \\$code with no type specified\\.$#"
+			count: 1
+			path: app/Notifications/ForgotPassword.php
+
+		-
+			message: "#^Method App\\\\Notifications\\\\ForgotPassword\\:\\:toSms\\(\\) has parameter \\$notifiable with no type specified\\.$#"
+			count: 1
+			path: app/Notifications/ForgotPassword.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\ForgotPassword\\:\\:\\$code has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/ForgotPassword.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\ForgotPassword\\:\\:\\$tries has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/ForgotPassword.php
+
+		-
+			message: "#^Method App\\\\Notifications\\\\NotifyClient\\:\\:__construct\\(\\) has parameter \\$specialist with no type specified\\.$#"
+			count: 1
+			path: app/Notifications/NotifyClient.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\NotifyClient\\:\\:\\$specialist has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/NotifyClient.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\NotifyClient\\:\\:\\$tries has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/NotifyClient.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\NotifySpecialistForClientRegistration\\:\\:\\$client has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/NotifySpecialistForClientRegistration.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\NotifySpecialistForClientRegistration\\:\\:\\$tries has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/NotifySpecialistForClientRegistration.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Notifications\\\\Notification\\:\\:toSms\\(\\)\\.$#"
+			count: 1
+			path: app/Notifications/SmsChannel.php
+
+		-
+			message: "#^Cannot access property \\$phone on mixed\\.$#"
+			count: 1
+			path: app/Notifications/SmsChannel.php
+
+		-
+			message: "#^Cannot access property \\$email on mixed\\.$#"
+			count: 1
+			path: app/Notifications/VerifyEmail.php
+
+		-
+			message: "#^Method App\\\\Notifications\\\\VerifyEmail\\:\\:__construct\\(\\) has parameter \\$code with no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyEmail.php
+
+		-
+			message: "#^Method App\\\\Notifications\\\\VerifyEmail\\:\\:toSms\\(\\) has parameter \\$notifiable with no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyEmail.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\VerifyEmail\\:\\:\\$code has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyEmail.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\VerifyEmail\\:\\:\\$tries has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyEmail.php
+
+		-
+			message: "#^Method App\\\\Notifications\\\\VerifyPhone\\:\\:__construct\\(\\) has parameter \\$code with no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyPhone.php
+
+		-
+			message: "#^Method App\\\\Notifications\\\\VerifyPhone\\:\\:toSms\\(\\) has parameter \\$notifiable with no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyPhone.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\VerifyPhone\\:\\:\\$code has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyPhone.php
+
+		-
+			message: "#^Property App\\\\Notifications\\\\VerifyPhone\\:\\:\\$tries has no type specified\\.$#"
+			count: 1
+			path: app/Notifications/VerifyPhone.php
+
+		-
+			message: "#^Cannot access property \\$id on mixed\\.$#"
+			count: 1
+			path: app/Providers/RouteServiceProvider.php
+
+		-
+			message: "#^PHPDoc tag @var above a method has no effect\\.$#"
+			count: 1
+			path: app/Providers/RouteServiceProvider.php
+
+		-
+			message: "#^PHPDoc tag @var does not specify variable name\\.$#"
+			count: 1
+			path: app/Providers/RouteServiceProvider.php
+
+		-
+			message: "#^Method App\\\\Services\\\\SMSService\\:\\:sendMessage\\(\\) has parameter \\$message with no type specified\\.$#"
+			count: 1
+			path: app/Services/SMSService.php
+
+		-
+			message: "#^Method App\\\\Services\\\\SMSService\\:\\:sendMessage\\(\\) has parameter \\$to with no type specified\\.$#"
+			count: 1
+			path: app/Services/SMSService.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method Illuminate\\\\Log\\\\Logger\\:\\:error\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: app/Services/SMSService.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibraryPro\\\\Models\\\\TemporaryUpload not found\\.$#"
+			count: 1
+			path: config/media-library.php
+
+		-
+			message: "#^Class App\\\\Media not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibrary\\\\ImageGenerators\\\\FileTypes\\\\Image not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibrary\\\\ImageGenerators\\\\FileTypes\\\\Pdf not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibrary\\\\ImageGenerators\\\\FileTypes\\\\Svg not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibrary\\\\ImageGenerators\\\\FileTypes\\\\Video not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibrary\\\\ImageGenerators\\\\FileTypes\\\\Webp not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibrary\\\\Jobs\\\\GenerateResponsiveImages not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^Class Spatie\\\\MediaLibrary\\\\Jobs\\\\PerformConversions not found\\.$#"
+			count: 1
+			path: config/medialibrary.php
+
+		-
+			message: "#^PHPDoc type string of property Database\\\\Factories\\\\UserFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: database/factories/UserFactory.php
+
+		-
+			message: "#^Method CreateMediaTable\\:\\:up\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: database/migrations/2021_04_04_190746_create_media_table.php
+
+		-
+			message: "#^Property CreateProgramRatesTable\\:\\:\\$_prefix has no type specified\\.$#"
+			count: 1
+			path: database/migrations/2022_01_08_110225_create_program_rates_table.php
+
+		-
+			message: "#^Property AddRateToProgramCommentsTable\\:\\:\\$_prefix has no type specified\\.$#"
+			count: 1
+			path: database/migrations/2022_04_18_181600_add_rate_to_program_comments_table.php
+
+		-
+			message: "#^Property AddRateToSpecialistCommentsTable\\:\\:\\$_prefix has no type specified\\.$#"
+			count: 1
+			path: database/migrations/2022_04_28_185354_add_rate_to_specialist_comments_table.php
+
+		-
+			message: "#^Cannot access offset 0 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 1 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 2 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 3 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 4 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 5 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 6 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 7 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 8 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Cannot access offset 9 on mixed\\.$#"
+			count: 1
+			path: database/seeders/LocationSeeder.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\HigherOrderTapProxy\\<mixed\\>\\:\\:send\\(\\)\\.$#"
+			count: 1
+			path: public/index.php
+
+		-
+			message: "#^Cannot call method where\\(\\) on array\\|Illuminate\\\\Routing\\\\Route\\.$#"
+			count: 3
+			path: routes/api.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: routes/console.php
+
+		-
+			message: "#^Parameter \#1 \$errorMessages of method App\\Api\\V1\\Controllers\\BaseController\:\:sendError\(\) expects array, Illuminate\\Support\\MessageBag given\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \$full_name on App\\Models\\User\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/GroupMessageController.php
+
+		-
+			message: "#^Cannot access property \$full_name on App\\Models\\User\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/MessageController.php
+
+		-
+			message: "#^Cannot access property \$id on App\\Models\\User\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \$id on App\\Models\\Specialist\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \$specialist on App\\Models\\User\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Parameter \#2 \$value of method Illuminate\\Validation\\Rules\\Exists\:\:whereNot\(\) expects array\|string, int given\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/ProgramController.php
+
+		-
+			message: "#^Cannot access property \$id on App\\Models\\Specialist\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \$specialist on App\\Models\\User\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot call method update\(\) on App\\Models\\SpecialistClient\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \$about on App\\Models\\SpecialistClient\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Parameter \#1 \$errorMessages of method App\\Api\\V1\\Controllers\\BaseController\:\:sendError\(\) expects array, Illuminate\\Support\\MessageBag given\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot call method update\(\) on App\\Models\\SpecialistClient\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access property \$id on App\\Models\\Specialist\|null\.$#"
+			count: 1
+			path: app/Api/V1/Controllers/SpecialistController.php
+
+		-
+			message: "#^Cannot access offset ''server_key'' on mixed\.$#"
+			count: 1
+			path: app/Helper/Notification.php
+
+		-
+			message: "#^Cannot access offset ''url'' on mixed\.$#"
+			count: 1
+			path: app/Helper/Notification.php

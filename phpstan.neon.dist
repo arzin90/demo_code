@@ -1,0 +1,23 @@
+includes:
+	- ./phpstan-baseline.neon
+	- ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+	level: max
+	tipsOfTheDay: false
+	editorUrl: 'phpstorm://open?file=%%file%%&line=%%line%%'
+	paths:
+		- ./app/
+		- ./config/
+		- ./database/
+		- ./public/
+		- ./routes/
+		- ./tests/
+
+	checkMissingIterableValueType: false
+	reportUnmatchedIgnoredErrors: false
+	reportMaybesInPropertyPhpDocTypes: false
+
+	ignoreErrors:
+		- '#^Parameter \#1 \$title of static method Illuminate\\Support\\Str\:\:slug\(\) expects string, mixed given\.$#'
+		- '#expects (.*?), mixed given.$#'
